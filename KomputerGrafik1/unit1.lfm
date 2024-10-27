@@ -1,135 +1,134 @@
 object Form1: TForm1
-  Left = 533
-  Height = 733
-  Top = 233
-  Width = 924
+  Left = 562
+  Height = 489
+  Top = 126
+  Width = 616
   Caption = 'Form1'
-  ClientHeight = 733
-  ClientWidth = 924
-  DesignTimePPI = 144
+  ClientHeight = 489
+  ClientWidth = 616
   LCLVersion = '3.4.0.0'
   object Label1: TLabel
-    Left = 144
-    Height = 48
-    Top = 40
-    Width = 324
+    Left = 96
+    Height = 32
+    Top = 27
+    Width = 218
     Caption = 'DATA MAHASISWA'
     Font.CharSet = ANSI_CHARSET
-    Font.Height = -36
+    Font.Height = -24
     Font.Pitch = fpVariable
     Font.Quality = fqDraft
     Font.Style = [fsBold]
     ParentFont = False
   end
   object Edit1: TEdit
-    Left = 368
-    Height = 33
-    Top = 152
-    Width = 200
+    Left = 245
+    Height = 23
+    Top = 101
+    Width = 133
     TabOrder = 0
   end
   object Edit2: TEdit
-    Left = 368
-    Height = 33
-    Top = 200
-    Width = 200
+    Left = 245
+    Height = 23
+    Top = 133
+    Width = 133
     TabOrder = 1
   end
   object Edit3: TEdit
-    Left = 368
-    Height = 33
-    Top = 248
-    Width = 200
+    Left = 245
+    Height = 23
+    Top = 165
+    Width = 133
     TabOrder = 2
   end
   object Edit4: TEdit
-    Left = 368
-    Height = 33
-    Top = 296
-    Width = 200
+    Left = 245
+    Height = 23
+    Top = 197
+    Width = 133
     TabOrder = 3
   end
   object Button1: TButton
-    Left = 136
-    Height = 38
-    Top = 392
-    Width = 113
+    Left = 91
+    Height = 25
+    Top = 261
+    Width = 75
     Caption = 'Tampilkan'
     TabOrder = 4
     OnClick = Button1Click
   end
   object Button2: TButton
-    Left = 352
-    Height = 38
-    Top = 392
-    Width = 113
+    Left = 235
+    Height = 25
+    Top = 261
+    Width = 75
     Caption = 'Hapus'
     TabOrder = 5
     OnClick = Button2Click
   end
   object Button3: TButton
-    Left = 568
-    Height = 38
-    Top = 392
-    Width = 113
+    Left = 379
+    Height = 25
+    Top = 261
+    Width = 75
     Caption = 'Keluar'
     TabOrder = 6
     OnClick = Button3Click
   end
   object Label5: TLabel
-    Left = 96
-    Height = 25
-    Top = 296
-    Width = 59
+    Left = 64
+    Height = 15
+    Top = 197
+    Width = 40
     Caption = 'Jenjang'
   end
   object Label4: TLabel
-    Left = 96
-    Height = 25
-    Top = 248
-    Width = 108
+    Left = 64
+    Height = 15
+    Top = 165
+    Width = 72
     Caption = 'Progran Studi'
   end
   object Label3: TLabel
-    Left = 96
-    Height = 25
-    Top = 200
-    Width = 138
+    Left = 64
+    Height = 15
+    Top = 133
+    Width = 93
     Caption = 'Nama Mahasiswa'
   end
   object Label2: TLabel
-    Left = 96
-    Height = 25
-    Top = 157
-    Width = 197
+    Left = 64
+    Height = 15
+    Top = 105
+    Width = 132
     Caption = 'Nomor induk Mahasiswa'
   end
   object labelJenjang: TLabel
-    Left = 96
-    Height = 25
-    Top = 611
-    Width = 81
+    Left = 64
+    Height = 15
+    Top = 407
+    Width = 54
     Caption = 'Jenjang = '
   end
   object labelProdi: TLabel
-    Left = 96
-    Height = 25
-    Top = 563
-    Width = 130
+    Left = 64
+    Height = 15
+    Top = 375
+    Width = 86
     Caption = 'Progran Studi = '
   end
   object labelNama: TLabel
-    Left = 96
-    Height = 25
-    Top = 515
-    Width = 160
+    Left = 64
+    Height = 15
+    Top = 343
+    Width = 107
     Caption = 'Nama Mahasiswa = '
   end
   object labelNIM: TLabel
-    Left = 96
-    Height = 25
-    Top = 472
-    Width = 219
+    Left = 64
+    Height = 15
+    Top = 315
+    Width = 146
     Caption = 'Nomor induk Mahasiswa = '
   end
 end
